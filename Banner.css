@@ -1,0 +1,560 @@
+.body-total{
+    background-color: rgb(248, 248, 247);
+}
+.banner-total{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.anh-banner{
+   width: 100% ;
+}
+
+
+
+
+
+/* Thiết lập vị trí cho thẻ div với class dropdown*/
+
+.dropdown-danhmuc {
+    display: inline-block;
+    margin-left: 8%;
+    width: 140px;
+    
+  }
+.btn-dropdown-danhmuc {
+    background-color: #0080ff;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 2px solid rgb(212, 212, 212);
+    border-radius: 5px;
+  }
+.btn-dropdown-danhmuc:focus{
+    border: 1px solid grey;
+}
+
+ 
+  /* Nội dung Dropdown */
+  .noidung-dropdown {
+    /*Ẩn nội dụng các đường dẫn*/
+    display: none;
+    
+  }
+  .noidung-dropdown ul{
+    list-style-type: none;
+    background: rgb(255, 255, 255);
+    padding: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+  }
+  
+  /* Thiết kế style cho các đường dẫn tronng Dropdown */
+  .noidung-dropdown ul li a {
+    color: black;
+    padding: 12px ;
+    text-decoration: none;
+    display: block;
+    
+    
+  }
+  .noidung-dropdown ul li a:hover{
+    background:rgb(232, 232, 255);
+    color: rgb(251, 74, 74);
+  }
+  .hienthi{
+    display:block;
+    
+  }
+
+/* thiết kế banner */
+
+.banner-slideshow {
+    border: 2px solid black;
+    background: rgb(233, 233, 233);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    width: 800px;
+    margin-left: -30px;
+}
+.anhtren{
+    margin-bottom: -30px;
+}
+
+.img-banner{
+    width: 800px;
+    height: 400px;
+    transition: 1s;
+    border-radius: 10px;
+    border: 1px solid rgb(216, 214, 214);
+    
+}
+
+
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+    
+}
+
+
+.img-left{
+    width: 60px;
+    margin-top: -420px;
+    cursor: pointer;
+    padding: 16px;
+    transition: 0.6s ease;
+    border-radius: 2px;
+}
+.img-left:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+.img-right{
+    width: 60px;
+    margin-top: -480px;
+    margin-left: 740px;
+    cursor: pointer;
+    padding: 16px;
+    transition: 0.6s ease;
+    border-radius: 2px;
+}.img-right:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+.list-img{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(233, 233, 233);
+    border-radius: 3px;
+}
+.list-img img{
+    width: 70px;
+    height: 50px;
+    cursor: pointer;
+    
+}
+.list-img div{
+    padding: 5px;
+}
+
+.active{
+    background-color: rgb(251, 186, 186);
+}
+
+.ud-nd{
+    width: 200px;
+    margin-right: 8%;
+}
+.title-hathanh{
+    font-size: 20px;
+}
+.title-hathanh-icon{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: -5px;
+    margin-left: 5px;
+}
+.danhmuc-list{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: -16px;
+}
+.sp1{
+    background-image: url(https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-den-thumb-600x600.jpg);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border: 2px solid rgb(236, 236, 236);
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 15px;
+    
+}
+.sp1:hover{
+    transform: scale(1.1);
+}
+.sp2{
+    background-image: url(https://ionevn.vn/wp-content/uploads/2022/11/iphone-14-pro-max-256gb-mau-tim-ione-vn.png);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border: 2px solid rgb(236, 236, 236);
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 15px;
+    
+}
+.sp2:hover{
+    transform: scale(1.1);
+}
+.sp3{
+    background-image: url(https://ionevn.vn/wp-content/uploads/2022/12/iphone-14-pro-max-1tb-mau-vang-ione-vn.png);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border: 2px solid rgb(236, 236, 236);
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 15px;
+    
+}
+.sp3:hover{
+    transform: scale(1.1);
+}
+.sp4{
+    background-image: url(https://ionevn.vn/wp-content/uploads/2022/11/iphone-14-pro-max-128gb-mau-bac-ione-vn.png);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border: 2px solid rgb(236, 236, 236);
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 15px;
+    
+}
+.sp4:hover{
+    transform: scale(1.1);
+}
+.sp5{
+    background-image: url(https://ionevn.vn/wp-content/uploads/2022/11/iphone-14-plus-128gb-mau-den-ione-vn.png);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border: 2px solid rgb(236, 236, 236);
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.sp5:hover{
+    transform: scale(1.1);
+}
+.sp6{
+    background-image: url(https://ionevn.vn/wp-content/uploads/2022/11/iphone-14-plus-128gb-mau-trang-ione-vn.png);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border: 2px solid rgb(236, 236, 236);
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.sp6:hover{
+    transform: scale(1.1);
+}
+.sp7{
+    background-image: url(https://ionevn.vn/wp-content/uploads/2022/11/iphone-14-plus-128gb-mau-xanh-duong-ione-vn.png);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border: 2px solid rgb(236, 236, 236);
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.sp7:hover{
+    transform: scale(1.1);
+}
+.sp8{
+    background-image: url(https://cdn11.dienmaycholon.vn/filewebdmclnew/DMCL21/Picture//Apro/Apro_product_31407/iphone-14-plus-_main_591_1020.png.webp);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border: 2px solid rgb(236, 236, 236);
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.sp8:hover{
+    transform: scale(1.1);
+}
+.sp9{
+    background-image: url(https://media.studio7thailand.com/75644/iPhone_14_Plus_ProductRED_PDP_Image_Position-1A_ProductRED_1.jpg);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border: 2px solid rgb(236, 236, 236);
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.sp9:hover{
+    transform: scale(1.1);
+}
+.sp10{
+    background-image: url(https://cdn.nguyenkimmall.com/images/detailed/757/dien-thoai-iphone-13-pro-max-1tb-vang-dong-1.jpg);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border: 2px solid rgb(236, 236, 236);
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.sp10:hover{
+    transform: scale(1.1);
+}
+.sp11{
+    background-image: url(https://cdn.nguyenkimmall.com/images/detailed/756/dien-thoai-iphone-13-pro-max-128gb-xanh-duong-1.jpg);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border: 2px solid rgb(236, 236, 236);
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.sp11:hover{
+    transform: scale(1.1);
+}
+.sp12{
+    background-image: url(https://cdn.tgdd.vn/Products/Images/42/230529/iphone-13-pro-max-xanh-la-thumb-600x600.jpg);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border: 2px solid rgb(236, 236, 236);
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.sp12:hover{
+    transform: scale(1.1);
+}
+.sp13{
+    background-image: url(https://phucanhcdn.com/media/product/44586_iphone_13_pro_max_graphite.jpg);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border: 2px solid rgb(236, 236, 236);
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.sp13:hover{
+    transform: scale(1.1);
+}
+.sp14{
+    background-image: url(https://phucanhcdn.com/media/product/44588_iphone_13_pro_max_silver.jpg);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border: 2px solid rgb(236, 236, 236);
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.sp14:hover{
+    transform: scale(1.1);
+}
+.sp15{
+    background-image: url(https://hc.com.vn/i/ecommerce/media/GS.008504_FEATURE_93851.jpg);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
+    border: 2px solid rgb(236, 236, 236);
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.sp15:hover{
+    transform: scale(1.1);
+}
+.sp16{
+    background-image: url(https://smartviets.com/upload/image/slide/13/13%20tr%E1%BA%AFng.jpg);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    border: 2px solid rgb(236, 236, 236);
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.sp16:hover{
+    transform: scale(1.1);
+}
+.sp17{
+    background-image: url(https://cdn.nguyenkimmall.com/images/detailed/756/dien-thoai-iphone-13-128gb-xanh-duong-1.jpg);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border: 2px solid rgb(236, 236, 236);
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.sp17:hover{
+    transform: scale(1.1);
+}
+.sp18{
+    background-image: url(https://hc.com.vn/i/ecommerce/media/GS.008505_FEATURE_93790.jpg);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: center;
+    border: 2px solid rgb(236, 236, 236);
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.sp18:hover{
+    transform: scale(1.1);
+}
+.sp19{
+    background-image: url(https://hc.com.vn/i/ecommerce/media/GS.006171_FEATURE_72104.jpg);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: center;
+    border: 2px solid rgb(236, 236, 236);
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.sp19:hover{
+    transform: scale(1.1);
+}
+.sp20{
+    background-image: url(https://imaxmobile.vn/media/data/iphone-12-pro-max-trang-1.jpg);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: center;
+    border: 2px solid rgb(236, 236, 236);
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.sp20:hover{
+    transform: scale(1.1);
+}
+
+.tongket{
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.kengang{
+    color:blue;
+    size:10px;
+
+}
+.goituvan{
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+.hotrobh{
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+.diachi{
+    font-size: 30px;
+    margin-bottom: 2px;
+}
+.btn-xembando{
+    color: rgb(124, 124, 249);
+}
+.dichvu{
+    margin-left: 10px;
+}
+.list-dichvu{
+    margin-top: -20px;
+}
+.img-hathanhmobile{
+    margin-top: -20px;
+    width: 250px;
+    height: 150px;
+    border-radius: 50%;
+}
+.tongket-noidung{
+    margin-top: -30px;
+    text-align: center;
+}
+
+
+
+
+
+

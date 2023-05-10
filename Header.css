@@ -1,0 +1,134 @@
+.Header-total{
+    position: relative;
+    background-color: rgb(55, 192, 80);
+    height:130px ;
+    top : 0;
+    left: 0;
+    right: 0;
+    
+}
+.Header-top{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Header-top-list{
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.Header-top-item{
+    list-style: none;
+    color: #fff;
+    margin-right: 10px;
+    display: inline-flex;
+    margin-left: 10px;
+    
+}
+.btn-trangchu{
+    background-color: rgb(55, 192, 80);
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+.btn-trangchu:hover{
+    color: rgb(84, 84, 255);
+}
+.btn-dangki:hover{
+    color: rgb(234, 28, 28);
+}
+.btn-dangnhap:hover{
+    color: rgb(234, 28, 28) ;
+}
+
+.Header-search{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+}
+.img-apple{
+    margin-left: 11.3%;
+    background-color: floralwhite;
+    height: 50px;
+    width: 53px;
+    cursor: pointer;
+    border-radius: 50%;
+    
+}
+.Header-search-inputsearch{
+    width: 700px;
+    height: 36px;
+    border: none;
+    border-radius: 10px;
+    font-size: small;
+}
+.Header-search-inputsearch::placeholder{
+    color: rgb(168, 165, 165);
+    font-size: small;
+}
+.Header-search-inputsearch:first-of-type{
+    outline: none;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+}
+.img-search{
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.ul-display{
+    margin-top: 1px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.li-display{
+    display: inline-flex;
+    font-size: 13px;
+    margin-left: -40px;
+    color: white;
+}
+/* .Header-search-btncart{
+    margin-right: 170px;
+    height: 58px;
+    font-size: 25px;
+} */
+
+.img-cart{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 45%;
+    background-color: #fff;
+    background-size: cover;
+    margin-right: 10%;
+}
+.img-fb{
+    cursor: pointer;
+    margin-left: 10px;
+    width: 17px;
+    height: 17px;
+    margin-top: 3px;
+}
+.img-ins{
+    cursor: pointer;
+    margin-left: 10px;
+    width: 17px;
+    height: 17px;
+    margin-top: 3px;
+}
+
+.img-dt{
+    width: 30px;
+    height: 30px;
+}
+
+
